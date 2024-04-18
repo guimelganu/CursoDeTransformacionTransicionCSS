@@ -5,3 +5,19 @@ a:link {
 a:visited {
     color: tomato;
 }
+
+a:hover {
+    background-color: blueviolet;
+}
+
+p:not(.maravillas) {
+    color: lightsalmon;
+}
+
+.container :nth-child(2) {
+    color: chocolate;
+}
+
+.pepito::after {
+    content: "hola";
+}
